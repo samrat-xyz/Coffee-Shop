@@ -1,15 +1,15 @@
 {
-  "name": "coffe-shop-web",
+  "name": "coffee-shop",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://samrat-xyz.github.io/Coffee-Shop",
+  "homepage": "https://samrat-xyz.github.io/Coffee-Shop/",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "deploy": "vite build && gh-pages -d dist"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
+  },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",
     "react": "^19.1.1",
